@@ -49,10 +49,13 @@ section {
 
 .banner-sec {
     position: relative;
+    width: 100%;
     min-height: 90vh;
     background-image: url("../images/donation7.jpg");
     background-repeat: no-repeat;
-    background-position: left;
+    background-size: cover;
+    /* Ensure the background image covers the full area */
+    background-position: center;
     z-index: 1;
 }
 
