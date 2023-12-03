@@ -1,0 +1,268 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 0.5em;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 0.5em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 0.1em;
+    text-align: center;
+}
+
+p {
+    color: dimgray;
+    font-size: 16px;
+    text-align: center;
+}
+
+.p-col-white-n-center {
+    color: white;
+}
+
+section {
+    padding: 20px 0px;
+}
+
+.flex-col-center2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-sec {
+    position: relative;
+    min-height: 90vh;
+    background-image: url("../images/donation7.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1;
+}
+
+.abs-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+    z-index: 2;
+}
+
+.rel-banner-sec-items {
+    position: relative;
+    z-index: 3;
+}
+
+.anchor-cta-btn {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, red);
+    border-radius: 7px;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.p-center-60per {
+    text-align: center;
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.row-donation-amount {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.donate-amount-card {
+    padding: 25px 15px;
+    margin-right: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 5px;
+
+    color: gray;
+    background-color: #FAFAFA;
+    border: 1px solid dimgray;
+
+}
+
+#donate-amount-card-selected {
+    color: red;
+    background-color: #ffeeee;
+    border: 1px solid red;
+}
+
+.class-input-amount {
+    width: 35%;
+    padding: 6px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 231, 231);
+    box-shadow: 5px 5px 15px #FAFAFA;
+}
+
+.donate-plan {
+    background-color: rgb(246, 253, 246);
+}
+
+.donate-plan-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+.donate-plan-cards div {
+    width: 26%;
+    padding: 15px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px lightgray;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    justify-content: center;
+}
+
+.donate-plan-cards h3 {
+    font-size: 25px;
+}
+
+.donate-plan-cards div img {
+    width: 15%;
+}
+
+.donate-plan-cards p {
+    text-align: left;
+}
+
+.half-width {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 70px;
+}
+
+.half-width p {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.half-width div {
+    width: 40%;
+    margin: 0px 20px;
+
+}
+
+.half-width img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.work-with-us-sec {
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 150px;
+    height: 580px;
+}
+
+.work-with-us-sec h4 {
+
+    color: white;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.work-with-us-sec div {
+    width: 40%;
+    padding: 20px;
+}
+
+.work-with-us-sec p {
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.anchor-cta-btn-white {
+    background: linear-gradient(45deg, white, #ffeeee);
+    color: tomato;
+}
+
+.work-with-us-sec img {
+    width: 100%;
+}
+
+.work-with-us-sec span {
+    color: yellow;
+    line-height: 0.1em;
+}
+
+.subscription {
+    padding: 60px 250px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    padding-bottom: 50px;
+}
+
+.get-update-sec span {
+    color: tomato;
+}
+
+.email-input {
+    padding: 13px 20px;
+    margin: 0 -3px;
+    border-radius: 8px 0 0 8px;
+    border: 0px;
+    font-size: 17px;
+}
+
+.subs-btn {
+    padding: 10px 20px;
+    margin: 0;
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 0 8px 8px 0;
+    color: white;
+    font-size: 17px;
+}
+
+footer {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
